@@ -1,8 +1,8 @@
 import React from "react";
-import img1 from "./imgs/2.svg";
+import img1 from "./imgs/city.jpg";
 import { Link } from "react-router-dom";
-
-
+import vid from "./imgs/videoo.mp4"
+import img2 from './imgs/colom.jpg'
 function Landing() {
     return (
         <div className="font-sans text-gray-800 bg-black">
@@ -35,7 +35,7 @@ function Landing() {
                             <div className="flex items-center mb-8">
                                 <div className="w-12 h-px bg-gradient-to-r from-blue-500 to-transparent mr-4"></div>
                                 <h2 className="text-2xl md:text-3xl font-normal text-gray-100 tracking-tight">
-                                    Comercio local <span className="text-blue-300">reinventado</span>
+                                    Economía popular <span className="text-blue-300">reinventada</span>
                                 </h2>
                             </div>
 
@@ -82,12 +82,15 @@ function Landing() {
                         </section>
 
                         <div className="flex flex-col sm:flex-row gap-4 mb-16">
-                            <button className="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-medium rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2">
-                                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.3-.15-.68-.04-.85.26l-1.88 3.24c-2.86-1.21-6.08-1.21-8.94 0L5.65 5.71c-.18-.3-.55-.4-.85-.26-.3.15-.42.54-.26.85L6.4 9.48C3.3 11.25 1.28 14.44 1 18h22c-.28-3.56-2.3-6.75-5.4-8.52zM7 15.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25zm10 0c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z" />
-                                </svg>
-                                <span>Descargar Demo</span>
-                            </button>
+                            <div className="flex items-center space-x-2 bg-gray-800 hover:bg-gray-700 transition-all duration-300 rounded-lg px-4 py-2 border border-gray-700 shadow cursor-pointer">
+                                {/* <img
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Huawei_AppGallery_icon.png"
+    alt="AppGallery"
+    className="h-6"
+  /> */}
+                                <span className="text-white font-medium">Disponible en AppGallery</span>
+                            </div>
+
                             <button className="px-8 py-4 border border-gray-700 hover:border-gray-600 text-gray-200 font-medium rounded-lg transition-all duration-300 bg-gray-800 hover:bg-gray-700 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2">
                                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                                     <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.167 6.839 9.49.5.09.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.268 2.75 1.026A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.026 2.747-1.026.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
@@ -180,7 +183,7 @@ function Landing() {
                     {/* Encabezado con efecto especial */}
                     <div className="text-center mb-16">
                         <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300 mb-6">
-                            Potenciar el Comercio Local y Nacional es la meta
+                            Potenciar el Comercio Colombiano es la meta
                         </h2>
                         <p className="text-xl text-gray-400 max-w-3xl mx-auto">
                             Descubre las herramientas diseñadas para transformar tu experiencia de compra y venta
@@ -282,38 +285,32 @@ function Landing() {
                     </div>
 
                     {/* Contenedor de video premium */}
-                    <div className="relative group">
-                        {/* Marco del dispositivo */}
-                        <div className="absolute inset-0 rounded-[40px] border-2 border-gray-700/50 pointer-events-none z-20"></div>
-                        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1/4 h-6 bg-gray-800 rounded-b-lg z-20 border-l-2 border-r-2 border-b-2 border-gray-700/50"></div>
+<div className="relative group">
+  {/* Marco del dispositivo */}
+  <div className="absolute inset-0 rounded-[40px] border-2 border-gray-700/50 pointer-events-none z-20"></div>
+  <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1/4 h-6 bg-gray-800 rounded-b-lg z-20 border-l-2 border-r-2 border-b-2 border-gray-700/50 pointer-events-none"></div>
 
-                        {/* Overlay de video */}
-                        <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-all duration-300 rounded-2xl flex items-center justify-center z-10">
-                            <div className="w-20 h-20 bg-blue-600/90 group-hover:bg-blue-500 rounded-full flex items-center justify-center transform group-hover:scale-110 transition-all duration-300 shadow-xl">
-                                <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M8 5v14l11-7z" />
-                                </svg>
-                            </div>
-                        </div>
+ 
 
-                        {/* Video embebido */}
-                        <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl transform group-hover:scale-[1.01] transition-all duration-500">
-                            <iframe
-                                className="w-full h-[500px]"
-                                src="https://www.canva.com/design/DAGvhdEJ58w/ZgLtXnfdmdJRAHg8aw6b1g/edit?utm_content=DAGvhdEJ58w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-                                title="Demo Premium de Ruvlo"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                                loading="lazy"
-                            ></iframe>
-                        </div>
+  {/* Video embebido */}
+  <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl transform group-hover:scale-[1.01] transition-all duration-500">
+    <iframe
+      className="w-full h-[500px]"
+      src={vid}
+      title="Demo Premium de Ruvlo"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      loading="lazy"
+    ></iframe>
+  </div>
 
-                        {/* Efecto de brillo al hover */}
-                        <div className="absolute inset-0 rounded-2xl pointer-events-none overflow-hidden">
-                            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                        </div>
-                    </div>
+  {/* Efecto de brillo al hover */}
+  <div className="absolute inset-0 rounded-2xl pointer-events-none overflow-hidden">
+    <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+  </div>
+</div>
+
 
                     {/* CTA inferior */}
                     {/* <div className="mt-16 text-center">
@@ -367,7 +364,7 @@ function Landing() {
                         {/* Contenido textual */}
                         <div className="mx-auto max-w-2xl text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
                             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">Transforma</span> tu comercio hoy
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">Transforma</span> la economía popular hoy
                             </h2>
                             <p className="mt-6 text-xl leading-8 text-gray-300">
                                 Únete a la revolución digital donde emprendedores y clientes se conectan sin fronteras. Potencia tus ventas con Ruvlo todo-en-uno.
@@ -375,12 +372,12 @@ function Landing() {
 
                             {/* Botones de acción */}
                             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 lg:justify-start">
-                                <button className="px-8 py-3.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center">
+                                {/* <button className="px-8 py-3.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center">
                                     <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path>
                                     </svg>
                                     Comenzar prueba gratis
-                                </button>
+                                </button> */}
                                 <Link
                                     to="/privacy"
                                     className="flex items-center text-lg font-medium text-blue-400 hover:text-blue-300 transition-colors duration-300 group"
@@ -410,7 +407,7 @@ function Landing() {
                                 <div className="absolute inset-0 border-[14px] border-gray-900/80 rounded-xl pointer-events-none z-10"></div>
                                 <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1/3 h-5 bg-gray-900/80 rounded-b-lg z-10"></div>
                                 <img
-                                    src="https://images.unsplash.com/photo-1607748851687-ba9a10438621?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1587&q=80"
+                                    src={img2}
                                     alt="Interfaz Ruvlo"
                                     className="w-full h-full object-cover"
                                 />
@@ -446,7 +443,7 @@ function Landing() {
                 <div className="max-w-7xl mx-auto relative z-10">
                     {/* Encabezado */}
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-500 mb-6">
+                        <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-500 mb-6">
                             Nuestro Stack Tecnológico
                         </h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
