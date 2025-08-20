@@ -57,7 +57,7 @@ function Privacy() {
                 </p>
 
                 <p className="mb-4 leading-relaxed text-lg">
-                    Puedes solicitar acceso, corrección o eliminación de tus datos contactándonos en [email@ejemplo.com].
+                    Puedes solicitar acceso, corrección o eliminación de tus datos contactándonos en soporte@ruvlo.com.co
 
                 </p>
 
@@ -74,7 +74,7 @@ function Privacy() {
 
 
                 <p className="mb-4 leading-relaxed text-lg">
-                    Si tienes preguntas sobre privacidad, contáctanos en [email@ejemplo.com].
+                    Si tienes preguntas sobre privacidad, contáctanos en soporte@ruvlo.com.co
 
                 </p>
             </div>

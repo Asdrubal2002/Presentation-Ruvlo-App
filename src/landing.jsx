@@ -1,8 +1,9 @@
 import React from "react";
-import img1 from "./imgs/city.jpg";
+import img1 from "./imgs/im.jpeg";
 import { Link } from "react-router-dom";
 import vid from "./imgs/videoo.mp4"
 import img2 from './imgs/colom.jpg'
+
 function Landing() {
     return (
         <div className="font-sans text-gray-800 bg-black">
@@ -91,20 +92,21 @@ function Landing() {
                                 <span className="text-white font-medium">Disponible en AppGallery</span>
                             </div>
 
-                            <button className="px-8 py-4 border border-gray-700 hover:border-gray-600 text-gray-200 font-medium rounded-lg transition-all duration-300 bg-gray-800 hover:bg-gray-700 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2">
-                                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                                    <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.167 6.839 9.49.5.09.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.268 2.75 1.026A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.026 2.747-1.026.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
-                                </svg>
-                                <span>Ver Repositorio</span>
-                            </button>
+                            <a href="https://github.com/Asdrubal2002/AppBackend" target="_blank" rel="noopener noreferrer">
+                                <button className="px-8 py-4 border border-gray-700 hover:border-gray-600 text-gray-200 font-medium rounded-lg transition-all duration-300 bg-gray-800 hover:bg-gray-700 shadow-lg hover:shadow-xl flex items-center justify-center space-x-2">
+                                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                        <path fillRule="evenodd" clipRule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.167 6.839 9.49.5.09.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.268 2.75 1.026A9.578 9.578 0 0112 6.836c.85.004 1.705.114 2.504.336 1.909-1.294 2.747-1.026 2.747-1.026.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z" />
+                                    </svg>
+                                    <span>Ver Repositorio</span>
+                                </button>
+                            </a>
+
                         </div>
 
                         {/* Badges de tiendas premium */}
                         <div className="flex flex-col space-y-4">
                             <div className="flex items-center space-x-2 text-gray-400 text-sm">
-                                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
-                                </svg>
+
                                 <span>Próximamente en</span>
                             </div>
                             <div className="flex space-x-4">
@@ -133,7 +135,7 @@ function Landing() {
                             <img
                                 src={img1}
                                 alt="Interfaz Premium de Ruvlo"
-                                className="w-full h-auto object-cover relative z-0"
+                                className="w-full h-auto object-cover relative z-0 p-2"
                             />
 
                             {/* Efectos de pantalla */}
@@ -186,7 +188,7 @@ function Landing() {
                             Potenciar el Comercio Colombiano es la meta
                         </h2>
                         <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-                            Descubre las herramientas diseñadas para transformar tu experiencia de compra y venta
+                            Descubre las herramientas para transformar tu experiencia de compra y venta
                         </p>
                     </div>
 
@@ -280,36 +282,36 @@ function Landing() {
                             Descubre la Experiencia Ruvlo
                         </h2>
                         <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-                            Mira cómo transformamos el comercio local en una experiencia digital fluida e intuitiva
+                            Mira cómo podemos transformar la economía popular en una experiencia digital fluida e intuitiva
                         </p>
                     </div>
 
                     {/* Contenedor de video premium */}
-<div className="relative group">
-  {/* Marco del dispositivo */}
-  <div className="absolute inset-0 rounded-[40px] border-2 border-gray-700/50 pointer-events-none z-20"></div>
-  <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1/4 h-6 bg-gray-800 rounded-b-lg z-20 border-l-2 border-r-2 border-b-2 border-gray-700/50 pointer-events-none"></div>
+                    <div className="relative group">
+                        {/* Marco del dispositivo */}
+                        <div className="absolute inset-0 rounded-[40px] border-2 border-gray-700/50 pointer-events-none z-20"></div>
+                        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1/4 h-6 bg-gray-800 rounded-b-lg z-20 border-l-2 border-r-2 border-b-2 border-gray-700/50 pointer-events-none"></div>
 
- 
 
-  {/* Video embebido */}
-  <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl transform group-hover:scale-[1.01] transition-all duration-500">
-    <iframe
-      className="w-full h-[500px]"
-      src={vid}
-      title="Demo Premium de Ruvlo"
-      frameBorder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowFullScreen
-      loading="lazy"
-    ></iframe>
-  </div>
 
-  {/* Efecto de brillo al hover */}
-  <div className="absolute inset-0 rounded-2xl pointer-events-none overflow-hidden">
-    <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-  </div>
-</div>
+                        {/* Video embebido */}
+                        <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-2xl transform group-hover:scale-[1.01] transition-all duration-500">
+                            <iframe
+                                className="w-full h-[500px]"
+                                src={vid}
+                                title="Demo Premium de Ruvlo"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                loading="lazy"
+                            ></iframe>
+                        </div>
+
+                        {/* Efecto de brillo al hover */}
+                        <div className="absolute inset-0 rounded-2xl pointer-events-none overflow-hidden">
+                            <div className="absolute inset-0 bg-gradient-to-br from-blue-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        </div>
+                    </div>
 
 
                     {/* CTA inferior */}
@@ -340,11 +342,6 @@ function Landing() {
             <div className="bg-gradient-to-b from-gray-900 to-gray-950 py-32">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="relative isolate overflow-hidden bg-gradient-to-br from-gray-800/90 to-gray-900/80 px-8 py-16 shadow-2xl sm:rounded-[40px] sm:px-16 md:py-24 lg:flex lg:items-center lg:gap-x-20 lg:px-24 lg:py-32 backdrop-blur-sm border border-gray-700/30">
-                        {/* Efecto de partículas */}
-                        <div className="absolute inset-0 -z-10 overflow-hidden opacity-30">
-                            <div className="absolute top-1/3 left-1/4 w-64 h-64 rounded-full bg-blue-900/30 filter blur-[100px] animate-float-slow"></div>
-                            <div className="absolute bottom-1/4 right-1/4 w-72 h-72 rounded-full bg-indigo-900/30 filter blur-[120px] animate-float"></div>
-                        </div>
 
                         {/* Efecto de gradiente circular */}
                         <svg
@@ -355,16 +352,16 @@ function Landing() {
                             <circle cx={512} cy={512} r={512} fill="url(#gradient)" fillOpacity="0.7" />
                             <defs>
                                 <radialGradient id="gradient">
-                                    <stop stopColor="#4F46E5" />
-                                    <stop offset={1} stopColor="#7C3AED" />
+                                    <stop stopColor="#221c97ff" />
+                                    <stop offset={1} stopColor="#1c3dd1ff" />
                                 </radialGradient>
                             </defs>
                         </svg>
 
                         {/* Contenido textual */}
-                        <div className="mx-auto max-w-2xl text-center lg:mx-0 lg:flex-auto lg:py-32 lg:text-left">
+                        <div className="mx-auto max-w-2xl text-center lg:mx-0 lg:flex-auto lg:py-22 lg:text-left">
                             <h2 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">Transforma</span> la economía popular hoy
+                                <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-300">Transformemos</span> la economía popular
                             </h2>
                             <p className="mt-6 text-xl leading-8 text-gray-300">
                                 Únete a la revolución digital donde emprendedores y clientes se conectan sin fronteras. Potencia tus ventas con Ruvlo todo-en-uno.
@@ -443,7 +440,7 @@ function Landing() {
                 <div className="max-w-7xl mx-auto relative z-10">
                     {/* Encabezado */}
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-500 mb-6">
+                        <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-500 mb-6">
                             Nuestro Stack Tecnológico
                         </h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -504,6 +501,78 @@ function Landing() {
                             Y muchas otras tecnologías que hacen de Ruvlo una plataforma de alto rendimiento
                         </p>
                     </div>
+                </div>
+            </section>
+
+            <section className="py-28 px-6 bg-gradient-to-b from-gray-50 to-gray-100 relative overflow-hidden">
+                {/* Efectos de fondo */}
+                <div className="absolute inset-0 opacity-10 pointer-events-none">
+                    <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-r from-blue-50 to-transparent"></div>
+                    <div className="absolute bottom-0 right-0 w-1/3 h-full bg-gradient-to-l from-indigo-50 to-transparent"></div>
+                </div>
+
+                {/* Contenido principal */}
+                <div class="max-w-7xl mx-auto relative z-10">
+                    <div class="text-center mb-16">
+                        <h2 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-500 mb-6">
+                            Nuestros Objetivos de Desarrollo Sostenible
+                        </h2>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            Contribuimos activamente a la Agenda 2030 de las Naciones Unidas a través de nuestro proyecto
+                        </p>
+                    </div>
+
+                    <div class="flex flex-wrap justify-center gap-8">
+                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-red-200 shadow-sm hover:shadow-md flex flex-col items-center">
+                            <div class="w-16 h-16 mb-4 rounded-lg bg-red-50 flex items-center justify-center">
+                                <span class="text-2xl font-bold text-red-600">1</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Fin de la pobreza</h3>
+                            <p class="text-gray-600 text-center">Reducir la pobreza en todas sus formas</p>
+                        </div>
+
+                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-pink-200 shadow-sm hover:shadow-md flex flex-col items-center">
+                            <div class="w-16 h-16 mb-4 rounded-lg bg-pink-50 flex items-center justify-center">
+                                <span class="text-2xl font-bold text-pink-600">5</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Igualdad de género</h3>
+                            <p class="text-gray-600 text-center">Lograr la igualdad entre los géneros</p>
+                        </div>
+
+                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-purple-200 shadow-sm hover:shadow-md flex flex-col items-center">
+                            <div class="w-16 h-16 mb-4 rounded-lg bg-purple-50 flex items-center justify-center">
+                                <span class="text-2xl font-bold text-purple-600">8</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Trabajo decente</h3>
+                            <p class="text-gray-600 text-center">Promover el crecimiento económico sostenido</p>
+                        </div>
+
+                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-yellow-200 shadow-sm hover:shadow-md flex flex-col items-center">
+                            <div class="w-16 h-16 mb-4 rounded-lg bg-yellow-50 flex items-center justify-center">
+                                <span class="text-2xl font-bold text-yellow-600">9</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Innovación e infraestructura</h3>
+                            <p class="text-gray-600 text-center">Construir infraestructuras resilientes</p>
+                        </div>
+
+                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-teal-200 shadow-sm hover:shadow-md flex flex-col items-center">
+                            <div class="w-16 h-16 mb-4 rounded-lg bg-teal-50 flex items-center justify-center">
+                                <span class="text-2xl font-bold text-teal-600">10</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Reducción de desigualdades</h3>
+                            <p class="text-gray-600 text-center">Reducir la desigualdad en y entre los países</p>
+                        </div>
+
+                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-amber-200 shadow-sm hover:shadow-md flex flex-col items-center">
+                            <div class="w-16 h-16 mb-4 rounded-lg bg-amber-50 flex items-center justify-center">
+                                <span class="text-2xl font-bold text-amber-600">11</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Ciudades sostenibles</h3>
+                            <p class="text-gray-600 text-center">Lograr que las ciudades sean más inclusivas</p>
+                        </div>
+                    </div>
+
+
                 </div>
             </section>
 
