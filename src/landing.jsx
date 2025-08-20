@@ -441,7 +441,7 @@ function Landing() {
                     {/* Encabezado */}
                     <div className="text-center mb-16">
                         <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-500 mb-6">
-                            Nuestro Stack Tecnológico
+                            Creación de la aplicación
                         </h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                             Construido con las mejores herramientas para ofrecerte una experiencia excepcional
@@ -498,13 +498,13 @@ function Landing() {
                     {/* Nota adicional */}
                     <div className="mt-16 text-center">
                         <p className="text-gray-500 italic">
-                            Y muchas otras tecnologías que hacen de Ruvlo una plataforma de alto rendimiento
+                            Y muchas otras tecnologías que hacen de Ruvlo una aplicación móvil de alto rendimiento
                         </p>
                     </div>
                 </div>
             </section>
 
-            <section className="py-28 px-6 bg-gradient-to-b from-gray-50 to-gray-100 relative overflow-hidden">
+            <section className="py-20 px-6 bg-gray-100 relative overflow-hidden">
                 {/* Efectos de fondo */}
                 <div className="absolute inset-0 opacity-10 pointer-events-none">
                     <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-r from-blue-50 to-transparent"></div>
@@ -518,7 +518,7 @@ function Landing() {
                             Nuestros Objetivos de Desarrollo Sostenible
                         </h2>
                         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                            Contribuimos activamente a la Agenda 2030 de las Naciones Unidas a través de nuestro proyecto
+                            Ruvlo contribuye activamente a la Agenda 2030 de las Naciones Unidas
                         </p>
                     </div>
 
