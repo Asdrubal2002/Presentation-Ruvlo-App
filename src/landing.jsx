@@ -606,7 +606,7 @@ function Landing() {
                             <div className="absolute inset-px rounded-lg bg-gray-800 lg:rounded-l-4xl" />
                             <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
                                 <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
-                                    <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">Cercanpía a la comunidad</p>
+                                    <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">Cercanía a la comunidad</p>
                                     <p className="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
                                         En Ruvlo encuentras negocios cercanos a ti y apoyas a emprendedores locales.                                    </p>
                                 </div>
