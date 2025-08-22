@@ -3,6 +3,9 @@ import img1 from "./imgs/primera.jpg";
 import { Link } from "react-router-dom";
 import vid from "./imgs/videoo.mp4"
 import img2 from './imgs/colom.jpg'
+import img8 from './imgs/octava.jpg'
+
+
 
 function Landing() {
     return (
@@ -266,6 +269,80 @@ function Landing() {
                 </div>
             </section>
 
+
+            <section className="py-20 px-6 bg-gray-100 relative overflow-hidden">
+                {/* Efectos de fondo */}
+                <div className="absolute inset-0 opacity-10 pointer-events-none">
+                    <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-r from-blue-50 to-transparent"></div>
+                    <div className="absolute bottom-0 right-0 w-1/3 h-full bg-gradient-to-l from-indigo-50 to-transparent"></div>
+                </div>
+
+                {/* Contenido principal */}
+                <div class="max-w-7xl mx-auto relative z-10">
+                    <div class="text-center mb-16">
+                        <h2 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-500 mb-6">
+                            Nuestros Objetivos de Desarrollo Sostenible
+                        </h2>
+                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                            Ruvlo contribuye activamente a la Agenda 2030 de las Naciones Unidas
+                        </p>
+                    </div>
+
+                    <div class="flex flex-wrap justify-center gap-8">
+                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-red-200 shadow-sm hover:shadow-md flex flex-col items-center">
+                            <div class="w-16 h-16 mb-4 rounded-lg bg-red-50 flex items-center justify-center">
+                                <span class="text-2xl font-bold text-red-600">1</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Fin de la pobreza</h3>
+                            <p class="text-gray-600 text-center">Reducir la pobreza en todas sus formas</p>
+                        </div>
+
+                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-pink-200 shadow-sm hover:shadow-md flex flex-col items-center">
+                            <div class="w-16 h-16 mb-4 rounded-lg bg-pink-50 flex items-center justify-center">
+                                <span class="text-2xl font-bold text-pink-600">5</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Igualdad de género</h3>
+                            <p class="text-gray-600 text-center">Lograr la igualdad entre los géneros</p>
+                        </div>
+
+                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-purple-200 shadow-sm hover:shadow-md flex flex-col items-center">
+                            <div class="w-16 h-16 mb-4 rounded-lg bg-purple-50 flex items-center justify-center">
+                                <span class="text-2xl font-bold text-purple-600">8</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Trabajo decente</h3>
+                            <p class="text-gray-600 text-center">Promover el crecimiento económico sostenido</p>
+                        </div>
+
+                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-yellow-200 shadow-sm hover:shadow-md flex flex-col items-center">
+                            <div class="w-16 h-16 mb-4 rounded-lg bg-yellow-50 flex items-center justify-center">
+                                <span class="text-2xl font-bold text-yellow-600">9</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Innovación e infraestructura</h3>
+                            <p class="text-gray-600 text-center">Construir infraestructuras resilientes</p>
+                        </div>
+
+                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-teal-200 shadow-sm hover:shadow-md flex flex-col items-center">
+                            <div class="w-16 h-16 mb-4 rounded-lg bg-teal-50 flex items-center justify-center">
+                                <span class="text-2xl font-bold text-teal-600">10</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Reducción de desigualdades</h3>
+                            <p class="text-gray-600 text-center">Reducir la desigualdad en y entre los países</p>
+                        </div>
+
+                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-amber-200 shadow-sm hover:shadow-md flex flex-col items-center">
+                            <div class="w-16 h-16 mb-4 rounded-lg bg-amber-50 flex items-center justify-center">
+                                <span class="text-2xl font-bold text-amber-600">11</span>
+                            </div>
+                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Ciudades sostenibles</h3>
+                            <p class="text-gray-600 text-center">Lograr que las ciudades sean más inclusivas</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </section>
+
+
             {/* DEMO */}
             <section className="py-28 px-6 relative bg-gradient-to-b from-gray-900 to-gray-800 overflow-hidden">
                 {/* Efectos de fondo dinámicos */}
@@ -454,7 +531,7 @@ function Landing() {
                 <div className="max-w-7xl mx-auto relative z-10">
                     {/* Encabezado */}
                     <div className="text-center mb-16">
-                        <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-500 mb-6">
+                        <h2 className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-400 mb-6">
                             Creación de la aplicación
                         </h2>
                         <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -518,77 +595,109 @@ function Landing() {
                 </div>
             </section>
 
-            <section className="py-20 px-6 bg-gray-100 relative overflow-hidden">
-                {/* Efectos de fondo */}
-                <div className="absolute inset-0 opacity-10 pointer-events-none">
-                    <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-r from-blue-50 to-transparent"></div>
-                    <div className="absolute bottom-0 right-0 w-1/3 h-full bg-gradient-to-l from-indigo-50 to-transparent"></div>
-                </div>
+            <div className="bg-gray-900 py-24 sm:py-32">
+                <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
+                    <h2 className="text-center text-base/7 font-semibold text-blue-400">El futuro está en lo local</h2>
+                    <p className="mx-auto mt-2 max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">
+                        Nuestra diferencia
+                    </p>
+                    <div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
+                        <div className="relative lg:row-span-2">
+                            <div className="absolute inset-px rounded-lg bg-gray-800 lg:rounded-l-4xl" />
+                            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
+                                <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
+                                    <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">Cercanpía a la comunidad</p>
+                                    <p className="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
+                                        En Ruvlo encuentras negocios cercanos a ti y apoyas a emprendedores locales.                                    </p>
+                                </div>
+                                <div className="@container relative min-h-120 w-full grow max-lg:mx-auto max-lg:max-w-sm">
+                                    <div className="absolute inset-x-10 top-10 bottom-0 overflow-hidden rounded-t-[24px] border-x-[3px] border-t-[3px] border-gray-700 bg-gray-900 outline outline-white/20">
+                                        <img
+                                            alt=""
+                                            src={img8}
+                                            className="size-full object-cover object-top"
+                                        />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-white/15 lg:rounded-l-4xl" />
+                        </div>
+                        <div className="relative max-lg:row-start-1">
+                            <div className="absolute inset-px rounded-lg bg-gray-800 max-lg:rounded-t-4xl" />
+                            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
+                                <div className="px-8 pt-8 sm:px-10 sm:pt-10">
+                                    <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">Inteligencia artificial</p>
+                                    <p className="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
+                                        Ruvlo personaliza tu experiencia y te conecta con negocios cercanos. Muy pronto, con IA, será aún más rápido e inteligente.
 
-                {/* Contenido principal */}
-                <div class="max-w-7xl mx-auto relative z-10">
-                    <div class="text-center mb-16">
-                        <h2 class="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-900 to-blue-500 mb-6">
-                            Nuestros Objetivos de Desarrollo Sostenible
-                        </h2>
-                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                            Ruvlo contribuye activamente a la Agenda 2030 de las Naciones Unidas
-                        </p>
+                                    </p>
+                                </div>
+                                <div className="flex flex-1 items-center justify-center px-8 max-lg:pt-10 max-lg:pb-12 sm:px-10 lg:pb-2">
+                                    <img
+                                        alt=""
+                                        src="https://tailwindcss.com/plus-assets/img/component-images/dark-bento-03-performance.png"
+                                        className="w-full max-lg:max-w-xs"
+                                    />
+                                </div>
+                            </div>
+                            <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-white/15 max-lg:rounded-t-4xl" />
+                        </div>
+                        <div className="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
+                            <div className="absolute inset-px rounded-lg bg-gray-800" />
+                            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)]">
+                                <div className="px-8 pt-8 sm:px-10 sm:pt-10">
+                                    <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">Seguridad y confianza</p>
+                                    <p className="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
+                                        Todos los negocios en Ruvlo son verificados para darte confianza y seguridad al apoyar a emprendedores locales.
+
+
+                                    </p>
+                                </div>
+                                <div className="@container flex flex-1 items-center max-lg:py-6 lg:pb-2">
+                                    <img
+                                        alt=""
+                                        src="https://tailwindcss.com/plus-assets/img/component-images/dark-bento-03-security.png"
+                                        className="h-[min(152px,40cqw)] object-cover"
+                                    />
+                                </div>
+                            </div>
+                            <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-white/15" />
+                        </div>
+                        <div className="relative lg:row-span-2">
+                            <div className="absolute inset-px rounded-lg bg-gray-800 max-lg:rounded-b-4xl lg:rounded-r-4xl" />
+                            <div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
+                                <div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
+                                    <p className="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">APIs</p>
+                                    <p className="mt-2 max-w-lg text-sm/6 text-gray-400 max-lg:text-center">
+                                        Nuestra tecnología está pensada para escalar. Gracias a APIs robustas, Ruvlo podrá integrarse fácilmente con más servicios y crecer contigo.                                    </p>
+                                </div>
+                                <div className="relative min-h-120 w-full grow">
+                                    <div className="absolute top-10 right-0 bottom-0 left-10 overflow-hidden rounded-tl-xl bg-gray-900/60 outline outline-white/10">
+                                        <div className="flex bg-gray-900 outline outline-white/5">
+                                            <div className="-mb-px flex text-sm/6 font-medium text-gray-400">
+                                                <div className="border-r border-b border-r-white/10 border-b-white/20 bg-white/5 px-4 py-2 text-white">
+                                                    NotificationSetting.jsx
+                                                </div>
+                                                <div className="border-r border-gray-600/10 px-4 py-2">App.jsx</div>
+                                            </div>
+                                        </div>
+                                        <div className="px-6 pt-6 pb-14">
+
+
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-white/15 max-lg:rounded-b-4xl lg:rounded-r-4xl" />
+                        </div>
                     </div>
-
-                    <div class="flex flex-wrap justify-center gap-8">
-                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-red-200 shadow-sm hover:shadow-md flex flex-col items-center">
-                            <div class="w-16 h-16 mb-4 rounded-lg bg-red-50 flex items-center justify-center">
-                                <span class="text-2xl font-bold text-red-600">1</span>
-                            </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Fin de la pobreza</h3>
-                            <p class="text-gray-600 text-center">Reducir la pobreza en todas sus formas</p>
-                        </div>
-
-                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-pink-200 shadow-sm hover:shadow-md flex flex-col items-center">
-                            <div class="w-16 h-16 mb-4 rounded-lg bg-pink-50 flex items-center justify-center">
-                                <span class="text-2xl font-bold text-pink-600">5</span>
-                            </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Igualdad de género</h3>
-                            <p class="text-gray-600 text-center">Lograr la igualdad entre los géneros</p>
-                        </div>
-
-                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-purple-200 shadow-sm hover:shadow-md flex flex-col items-center">
-                            <div class="w-16 h-16 mb-4 rounded-lg bg-purple-50 flex items-center justify-center">
-                                <span class="text-2xl font-bold text-purple-600">8</span>
-                            </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Trabajo decente</h3>
-                            <p class="text-gray-600 text-center">Promover el crecimiento económico sostenido</p>
-                        </div>
-
-                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-yellow-200 shadow-sm hover:shadow-md flex flex-col items-center">
-                            <div class="w-16 h-16 mb-4 rounded-lg bg-yellow-50 flex items-center justify-center">
-                                <span class="text-2xl font-bold text-yellow-600">9</span>
-                            </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Innovación e infraestructura</h3>
-                            <p class="text-gray-600 text-center">Construir infraestructuras resilientes</p>
-                        </div>
-
-                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-teal-200 shadow-sm hover:shadow-md flex flex-col items-center">
-                            <div class="w-16 h-16 mb-4 rounded-lg bg-teal-50 flex items-center justify-center">
-                                <span class="text-2xl font-bold text-teal-600">10</span>
-                            </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Reducción de desigualdades</h3>
-                            <p class="text-gray-600 text-center">Reducir la desigualdad en y entre los países</p>
-                        </div>
-
-                        <div class="w-full sm:w-[calc(50%-16px)] md:w-[calc(33.333%-22px)] lg:w-[calc(25%-24px)] bg-white hover:bg-gray-50 transition-all duration-300 rounded-2xl p-8 border border-gray-200 hover:border-amber-200 shadow-sm hover:shadow-md flex flex-col items-center">
-                            <div class="w-16 h-16 mb-4 rounded-lg bg-amber-50 flex items-center justify-center">
-                                <span class="text-2xl font-bold text-amber-600">11</span>
-                            </div>
-                            <h3 class="text-xl font-semibold text-gray-900 mb-2 text-center">Ciudades sostenibles</h3>
-                            <p class="text-gray-600 text-center">Lograr que las ciudades sean más inclusivas</p>
-                        </div>
-                    </div>
-
-
                 </div>
-            </section>
+            </div>
+
+
+
+
 
             {/* FOOTER */}
             <footer className="bg-black text-white py-8 text-center">

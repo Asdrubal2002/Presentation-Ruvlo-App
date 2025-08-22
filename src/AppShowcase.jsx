@@ -129,6 +129,7 @@ export default function AppShowcase() {
                     className={`flex flex-col lg:flex-row items-center gap-6 ${idx % 2 === 0 ? "" : "lg:flex-row-reverse"
                         }`}
                 >
+                    
                     {/* Mockup con ligera rotación */}
                     <div className="flex-1 relative">
                         <div
@@ -175,6 +176,7 @@ export default function AppShowcase() {
                     </div>
                 </div>
             ))}
+            
         </div>
     );
 }
