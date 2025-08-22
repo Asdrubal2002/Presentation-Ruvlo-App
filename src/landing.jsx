@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "./imgs/im.jpeg";
+import img1 from "./imgs/primera.jpg";
 import { Link } from "react-router-dom";
 import vid from "./imgs/videoo.mp4"
 import img2 from './imgs/colom.jpg'
@@ -370,14 +370,28 @@ function Landing() {
                             {/* Botones de acción */}
                             <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-6 lg:justify-start">
                                 <Link
-                                 to="/funtions"
-                                className="px-8 py-3.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center">
-                                   
+                                    to="/funtions"
+                                    className="px-6 py-3 bg-blue-600 hover:bg-blue-500 text-white font-semibold rounded-xl shadow-md hover:shadow-lg transition duration-300 flex items-center group"
+                                >
                                     Descubre su funcionamiento
-                                </Link> 
+                                    <svg
+                                        className="w-5 h-5 ml-2 transition-transform duration-300 group-hover:translate-x-1"
+                                        fill="none"
+                                        stroke="currentColor"
+                                        viewBox="0 0 24 24"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth="2"
+                                            d="M9 5l7 7-7 7"
+                                        />
+                                    </svg>
+                                </Link>
+
                                 <Link
                                     to="/privacy"
-                                    className="flex items-center text-lg font-medium text-blue-400 hover:text-blue-300 transition-colors duration-300 group"
+                                    className="flex items-center text-lg font-medium text-blue-300 hover:text-blue-300 transition-colors duration-300 group"
                                 >
                                     Ver política de privacidad
                                     <svg

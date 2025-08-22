@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 function Privacy() {
+     useEffect(() => {
+            // Al montar el componente, ir al inicio de la ventana
+            window.scrollTo(0, 0);
+        }, []);
     return (
         <div className="min-h-screen bg-gradient-to-b from-gray-900 via-gray-800 to-black text-gray-200 p-8 flex justify-center items-center">
             <div className="max-w-3xl w-full bg-gray-950/70 backdrop-blur-sm rounded-2xl shadow-2xl p-10 border border-gray-800">
