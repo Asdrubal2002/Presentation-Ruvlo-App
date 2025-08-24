@@ -58,7 +58,7 @@ const mockups = [
         src: img7,
         alt: "Pantalla 7",
         title: "Inicia sesión para personalizar tus gustos",
-        desc: "Crea tu cuenta y descubre lo que emprendedores te pueden ofrecer cerca de ti.\n\nDatos de prueba:\nUsuario: Usuario1\nClave: 1234",
+        desc: "Crea tu cuenta y lánzate con tu emprendimiento en nuestra aplicación móvil.\n\nDatos de prueba:\nUsuario: Usuario1\nClave: 1234",
 
         colors: "from-cyan-900/40 to-sky-800/40",
     },
