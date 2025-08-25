@@ -106,7 +106,7 @@ function Landing() {
                         <div className="flex flex-col space-y-4">
                             <div className="flex items-center space-x-2 text-gray-400 text-sm">
 
-                                <span>Disponible en AppGallery desde el 26 de agosto a las 0:00 horas y próximamente en más tiendas.</span>
+                                <span>Disponible en AppGallery y próximamente en más tiendas.</span>
                             </div>
                             <div className="flex space-x-4">
                                 <div className="bg-gray-800 hover:bg-gray-700 transition-all duration-300 rounded-lg p-3 border border-gray-700 shadow">
