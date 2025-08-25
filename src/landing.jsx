@@ -87,15 +87,12 @@ function Landing() {
 
                         <div className="flex flex-col sm:flex-row gap-4 mb-16">
 
-                            <a
-                                href="https://appgallery.cloud.huawei.com/ag/n/app/C115034911?locale=es_US&source=appshare&subsource=C115034911&shareTo=com.android.bluetooth&shareFrom=appmarket&shareIds=7c0fe389d25b4bc193975d0a0009e387_com.android.bluetooth&callType=SHARE"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
+                            <a href="https://appgallery.cloud.huawei.com/ag/n/app/C115034911?locale=es_US&source=appshare&subsource=C115034911&shareTo=com.android.bluetooth&shareFrom=appmarket&shareIds=7c0fe389d25b4bc193975d0a0009e387_com.android.bluetooth&callType=SHARE" target="_blank" rel="noopener noreferrer">
                                 <div className="flex items-center space-x-2 bg-gray-800 hover:bg-gray-700 transition-all duration-300 rounded-lg px-4 py-2 border border-gray-700 shadow cursor-pointer">
                                     <span className="text-white font-medium">Disponible en AppGallery</span>
                                 </div>
                             </a>
+
 
 
                             <a href="https://github.com/Asdrubal2002/AppBackend" target="_blank" rel="noopener noreferrer">
