@@ -30,7 +30,7 @@ const mockups = [
         src: img3,
         alt: "Pantalla 3",
         title: "Descubre negocios cerca de ti",
-        desc: "Explora productos y negocios automáticamente según tu ubicación.",
+        desc: "Explora productos y negocios automáticamente según tu ubicación y tus preferencias.",
         colors: "from-green-900/40 to-emerald-800/40",
     },
     {
