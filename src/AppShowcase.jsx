@@ -66,7 +66,7 @@ const steps = [
     {
         icon: <DownloadCloud className="w-12 h-12 text-purple-400 mx-auto group-hover:scale-110 group-hover:text-purple-300 transition-transform duration-300" />,
         title: "1. Descarga",
-        desc: "Obtén la aplicación desde la tienda appgallery de Huawei.",
+        desc: "Obtén la aplicación desde la tienda appgallery de Huawei desde el 26 de Agosto del 2025.",
         gradient: "from-purple-500/10 to-pink-500/10",
     },
     {

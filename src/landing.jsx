@@ -87,11 +87,7 @@ function Landing() {
 
                         <div className="flex flex-col sm:flex-row gap-4 mb-16">
                             <div className="flex items-center space-x-2 bg-gray-800 hover:bg-gray-700 transition-all duration-300 rounded-lg px-4 py-2 border border-gray-700 shadow cursor-pointer">
-                                {/* <img
-    src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Huawei_AppGallery_icon.png"
-    alt="AppGallery"
-    className="h-6"
-  /> */}
+                               
                                 <span className="text-white font-medium">Disponible en AppGallery</span>
                             </div>
 
@@ -103,14 +99,14 @@ function Landing() {
                                     <span>Ver Repositorio</span>
                                 </button>
                             </a>
-
+                            
                         </div>
 
                         {/* Badges de tiendas premium */}
                         <div className="flex flex-col space-y-4">
                             <div className="flex items-center space-x-2 text-gray-400 text-sm">
 
-                                <span>Próximamente en</span>
+                                <span>Disponible en AppGallery desde el 26 de agosto a las 0:00 horas y próximamente en más tiendas.</span>
                             </div>
                             <div className="flex space-x-4">
                                 <div className="bg-gray-800 hover:bg-gray-700 transition-all duration-300 rounded-lg p-3 border border-gray-700 shadow">
