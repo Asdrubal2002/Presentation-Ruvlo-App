@@ -78,7 +78,7 @@ const steps = [
     {
         icon: <UserPlus className="w-12 h-12 text-green-400 mx-auto group-hover:scale-110 group-hover:text-green-300 transition-transform duration-300" />,
         title: "3. Disfruta",
-        desc: "Para explorar las funciones, inicia sesión con la cuenta de prueba incluida: Usuario: Usuario1, Clave: 1234.",
+        desc: "Para explorar las funciones, inicia sesión con la cuenta de prueba incluida: Usuario: Usuario1, Clave: 1234, o crea tu cuenta personalizada.",
         gradient: "from-green-500/10 to-emerald-500/10",
     },
 ];
