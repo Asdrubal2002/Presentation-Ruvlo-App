@@ -55,6 +55,13 @@ const mockups = [
         colors: "from-cyan-900/40 to-sky-800/40",
     },
     {
+        src: "https://res.cloudinary.com/dgkw7eb6g/image/upload/v1756147194/media/stores/418a1909-c6cc-4a5b-a/qr/qr_418a1909-c6cc-4a5b-a_hwb9pg.png",
+        alt: "Pantalla qr",
+        title: "Descubre el negocio con un QR",
+        desc: "Abre la aplicación, escanea el código QR y accede automáticamente al negocio.",
+        colors: "from-cyan-900/40 to-sky-800/40",
+    },
+    {
         src: img7,
         alt: "Pantalla 7",
         title: "Inicia sesión para personalizar tus gustos",
