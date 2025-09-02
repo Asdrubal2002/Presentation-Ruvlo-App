@@ -68,6 +68,7 @@ const steps = [
         title: "1. Descarga",
         desc: "Obtén la aplicación desde la tienda appgallery de Huawei.",
         gradient: "from-purple-500/10 to-pink-500/10",
+        link: "https://appgallery.cloud.huawei.com/ag/n/app/C115034911?locale=es_US&source=appshare&subsource=C115034911&shareTo=com.android.bluetooth&shareFrom=appmarket&shareIds=7c0fe389d25b4bc193975d0a0009e387_com.android.bluetooth&callType=SHARE"
     },
     {
         icon: <CloudCog className="w-12 h-12 text-cyan-400 mx-auto group-hover:scale-110 group-hover:text-cyan-300 transition-transform duration-300" />,
@@ -115,6 +116,18 @@ export default function AppShowcase() {
                                 {step.icon}
                                 <h2 className="text-2xl font-bold text-white">{step.title}</h2>
                                 <p className="text-gray-300">{step.desc}</p>
+
+                                {/* Añadir enlace solo para el primer paso */}
+                                {idx === 0 && step.link && (
+                                    <a
+                                        href={step.link}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center justify-center mt-4 px-5 py-2.5 bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-700 hover:to-indigo-700 text-white font-medium rounded-xl shadow-lg hover:shadow-purple-500/20 transition-all duration-300 transform hover:-translate-y-0.5"
+                                    >
+                                        Descargar ahora
+                                    </a>
+                                )}
                             </div>
                         </div>
                     ))}
