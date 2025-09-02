@@ -55,13 +55,6 @@ const mockups = [
         colors: "from-cyan-900/40 to-sky-800/40",
     },
     {
-        src: "https://res.cloudinary.com/dgkw7eb6g/image/upload/v1756147194/media/stores/418a1909-c6cc-4a5b-a/qr/qr_418a1909-c6cc-4a5b-a_hwb9pg.png",
-        alt: "Pantalla qr",
-        title: "Descubre el negocio con un QR",
-        desc: "Abre la aplicación, escanea el código QR y accede automáticamente al negocio.",
-        colors: "from-cyan-900/40 to-sky-800/40",
-    },
-    {
         src: img7,
         alt: "Pantalla 7",
         title: "Inicia sesión para personalizar tus gustos",
@@ -135,7 +128,7 @@ export default function AppShowcase() {
                     className={`flex flex-col lg:flex-row items-center gap-6 ${idx % 2 === 0 ? "" : "lg:flex-row-reverse"
                         }`}
                 >
-                    
+
                     {/* Mockup con ligera rotación */}
                     <div className="flex-1 relative">
                         <div
@@ -182,7 +175,42 @@ export default function AppShowcase() {
                     </div>
                 </div>
             ))}
-            
+            <div className="py-16 px-4 lg:px-8 bg-gradient-to-br from-gray-900 to-black relative overflow-hidden rounded-2xl">
+                {/* Figuras de fondo */}
+                <div className="absolute -top-10 -left-10 w-40 h-40 bg-purple-500/10 rounded-full blur-3xl"></div>
+                <div className="absolute -bottom-10 -right-10 w-56 h-56 bg-blue-500/10 rounded-full blur-3xl"></div>
+
+                <div className="max-w-6xl mx-auto">
+                    <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+                        {/* Texto */}
+                        <div className="flex-1 text-center lg:text-left relative">
+                            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 relative z-10">
+                                Descubre el negocio con un QR
+                            </h2>
+                            <p className="text-lg text-gray-300 max-w-lg mx-auto lg:mx-0 relative z-10 whitespace-pre-line">
+                                Usa la app de Ruvlo para escanear este código y acceder directamente.
+                                Oprime: "Escanear QR de negocio" dentro de la aplicación.
+                            </p>
+                        </div>
+
+                        {/* QR Code */}
+                        <div className="flex-1 flex justify-center lg:justify-end relative z-10">
+                            <div className="bg-white p-6 rounded-2xl shadow-2xl flex flex-col items-center">
+                                <div className="w-52 h-52 bg-white flex items-center justify-center mb-4">
+                                    <img
+                                        src="https://res.cloudinary.com/dgkw7eb6g/image/upload/v1756147194/media/stores/418a1909-c6cc-4a5b-a/qr/qr_418a1909-c6cc-4a5b-a_hwb9pg.png"
+                                        alt="Código QR del negocio"
+                                        className="w-full h-full object-contain"
+                                    />
+                                </div>
+                                <p className="text-gray-700 text-sm font-medium text-center">
+                                    Escanea este código
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
