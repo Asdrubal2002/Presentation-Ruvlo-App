@@ -45,7 +45,7 @@ function Landing() {
 
                             <div className="space-y-6">
                                 <p className="text-lg text-gray-400 font-light leading-relaxed">
-                                    Ruvlo es la aplicación mobil que <span className="text-white">conecta directamente</span> a emprendedores con su audiencia, ofreciendo una experiencia <span className="text-white">personalizada, fluida y segura</span>.
+                                    Ruvlo es la aplicación móvil que <span className="text-white">conecta directamente</span> a emprendedores con su audiencia, ofreciendo una experiencia <span className="text-white">personalizada, fluida y segura</span>.
                                 </p>
 
                                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
